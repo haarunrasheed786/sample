@@ -1,0 +1,31 @@
+/* items.component.css */
+
+/* Style for the container div */
+.item-container {
+  margin-bottom: 10px;
+}
+
+/* Style for the item */
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the delete button */
+.item button {
+  margin-left: 10px;
+  background-color: #f44336; /* Red background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 5px 10px; /* Padding */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover effect for delete button */
+.item button:hover {
+  background-color: #d32f2f; /* Darker red background on hover */
+}

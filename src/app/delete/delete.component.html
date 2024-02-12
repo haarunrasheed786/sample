@@ -1,0 +1,14 @@
+<!--<form (ngSubmit)="addItem()">-->
+<!--  <input type="text" placeholder="Enter item" [(ngModel)]="newItem">-->
+<!--  <button type="submit">Add</button>-->
+<!--</form>-->
+
+<form (ngSubmit)="deleteItem()">
+  <label for="itemToDelete">Select item to delete:</label>
+  <select id="itemToDelete" [(ngModel)]="selectedItem">
+    <option *ngFor="let item of items" [value]="item">{{ item.name }}</option>
+  </select>
+  <button type="submit">Delete</button>
+</form>
+
+
